@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%-include('./inc/head')%>
+</head>
+<body>
+    <%-include('./inc/nav')%>
+    <section>
+        <form action="/login" method="post">
+            <h1>Login</h1>
+            <input type="text" name="username" placeholder="kullanıcı adı">
+            <input type="password" name="password" placeholder="şifre">
+            <input type="submit" value="gönder">
+        </form>
+    </section>
+</body>
+</html>
